@@ -1,0 +1,33 @@
+.f-color {
+    color: var(--f-color);
+}
+
+@media screen and (min-width: 576px) {
+    .sm\:f-color {
+        color: var(--f-color-sm, inherit);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .md\:f-color {
+        color: var(--f-color-md, inherit);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .lg\:f-color {
+        color: var(--f-color-lg, inherit);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .xl\:f-color {
+        color: var(--f-color-xl, inherit);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .xxl\:f-color {
+        color: var(--f-color-xxl, inherit);
+    }
+}

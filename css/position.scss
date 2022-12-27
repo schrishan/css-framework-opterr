@@ -1,0 +1,645 @@
+.pos-static {
+    position: static;
+}
+
+.pos-fixed {
+    position: fixed;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-sticky {
+    position: sticky;
+}
+
+.pos-auto {
+    top: auto;
+    left: auto;
+    bottom: auto;
+    right: auto;
+}
+
+.pos-y-auto {
+    top: auto;
+    bottom: auto;
+}
+
+.pos-x-auto {
+    left: auto;
+    right: auto;
+}
+
+.pos-t-auto {
+    top: auto;
+}
+
+.pos-l-auto {
+    left: auto;
+}
+
+.pos-b-auto {
+    bottom: auto;
+}
+
+.pos-r-auto {
+    right: auto;
+}
+
+.pos-0 {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.pos-y-0 {
+    top: 0;
+    bottom: 0;
+}
+
+.pos-x-0 {
+    left: 0;
+    right: 0;
+}
+
+.pos-t-0 {
+    top: 0;
+}
+
+.pos-l-0 {
+    left: 0;
+}
+
+.pos-b-0 {
+    bottom: 0;
+}
+
+.pos-r-0 {
+    right: 0;
+}
+
+.pos-cm {
+    position: var(--pos-cm);
+}
+
+.pos-t-cm {
+    position: var(--pos-t-cm);
+}
+
+.pos-r-cm {
+    position: var(--pos-r-cm);
+}
+
+.pos-b-cm {
+    position: var(--pos-b-cm);
+}
+
+.pos-l-cm {
+    position: var(--pos-l-cm);
+}
+
+@media screen and (min-width: 576px) {
+    .sm\:pos-static {
+        position: static;
+    }
+
+    .sm\:pos-fixed {
+        position: fixed;
+    }
+
+    .sm\:pos-relative {
+        position: relative;
+    }
+
+    .sm\:pos-absolute {
+        position: absolute;
+    }
+
+    .sm\:pos-sticky {
+        position: sticky;
+    }
+
+    .sm\:pos-auto {
+        top: auto;
+        left: auto;
+        bottom: auto;
+        right: auto;
+    }
+
+    .sm\:pos-y-auto {
+        top: auto;
+        bottom: auto;
+    }
+
+    .sm\:pos-x-auto {
+        left: auto;
+        right: auto;
+    }
+
+    .sm\:pos-t-auto {
+        top: auto;
+    }
+
+    .sm\:pos-l-auto {
+        left: auto;
+    }
+
+    .sm\:pos-b-auto {
+        bottom: auto;
+    }
+
+    .sm\:pos-r-auto {
+        right: auto;
+    }
+
+    .sm\:pos-0 {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .sm\:pos-y-0 {
+        top: 0;
+        bottom: 0;
+    }
+
+    .sm\:pos-x-0 {
+        left: 0;
+        right: 0;
+    }
+
+    .sm\:pos-t-0 {
+        top: 0;
+    }
+
+    .sm\:pos-l-0 {
+        left: 0;
+    }
+
+    .sm\:pos-b-0 {
+        bottom: 0;
+    }
+
+    .sm\:pos-r-0 {
+        right: 0;
+    }
+
+    .sm\:pos-cm {
+        position: var(--pos-cm-sm, inherit);
+    }
+
+    .sm\:pos-t-cm {
+        position: var(--pos-t-cm-sm, inherit);
+    }
+
+    .sm\:pos-r-cm {
+        position: var(--pos-r-cm-sm, inherit);
+    }
+
+    .sm\:pos-b-cm {
+        position: var(--pos-b-cm-sm, inherit);
+    }
+
+    .sm\:pos-l-cm {
+        position: var(--pos-l-cm-sm, inherit);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .md\:pos-static {
+        position: static;
+    }
+
+    .md\:pos-fixed {
+        position: fixed;
+    }
+
+    .md\:pos-relative {
+        position: relative;
+    }
+
+    .md\:pos-absolute {
+        position: absolute;
+    }
+
+    .md\:pos-sticky {
+        position: sticky;
+    }
+
+    .md\:pos-auto {
+        top: auto;
+        left: auto;
+        bottom: auto;
+        right: auto;
+    }
+
+    .md\:pos-y-auto {
+        top: auto;
+        bottom: auto;
+    }
+
+    .md\:pos-x-auto {
+        left: auto;
+        right: auto;
+    }
+
+    .md\:pos-t-auto {
+        top: auto;
+    }
+
+    .md\:pos-l-auto {
+        left: auto;
+    }
+
+    .md\:pos-b-auto {
+        bottom: auto;
+    }
+
+    .md\:pos-r-auto {
+        right: auto;
+    }
+
+    .md\:pos-0 {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .md\:pos-y-0 {
+        top: 0;
+        bottom: 0;
+    }
+
+    .md\:pos-x-0 {
+        left: 0;
+        right: 0;
+    }
+
+    .md\:pos-t-0 {
+        top: 0;
+    }
+
+    .md\:pos-l-0 {
+        left: 0;
+    }
+
+    .md\:pos-b-0 {
+        bottom: 0;
+    }
+
+    .md\:pos-r-0 {
+        right: 0;
+    }
+
+    .md\:pos-cm {
+        position: var(--pos-cm-md, inherit);
+    }
+
+    .md\:pos-t-cm {
+        position: var(--pos-t-cm-md, inherit);
+    }
+
+    .md\:pos-r-cm {
+        position: var(--pos-r-cm-md, inherit);
+    }
+
+    .md\:pos-b-cm {
+        position: var(--pos-b-cm-md, inherit);
+    }
+
+    .md\:pos-l-cm {
+        position: var(--pos-l-cm-md, inherit);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .lg\:pos-static {
+        position: static;
+    }
+
+    .lg\:pos-fixed {
+        position: fixed;
+    }
+
+    .lg\:pos-relative {
+        position: relative;
+    }
+
+    .lg\:pos-absolute {
+        position: absolute;
+    }
+
+    .lg\:pos-sticky {
+        position: sticky;
+    }
+
+    .lg\:pos-auto {
+        top: auto;
+        left: auto;
+        bottom: auto;
+        right: auto;
+    }
+
+    .lg\:pos-y-auto {
+        top: auto;
+        bottom: auto;
+    }
+
+    .lg\:pos-x-auto {
+        left: auto;
+        right: auto;
+    }
+
+    .lg\:pos-t-auto {
+        top: auto;
+    }
+
+    .lg\:pos-l-auto {
+        left: auto;
+    }
+
+    .lg\:pos-b-auto {
+        bottom: auto;
+    }
+
+    .lg\:pos-r-auto {
+        right: auto;
+    }
+
+    .lg\:pos-0 {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .lg\:pos-y-0 {
+        top: 0;
+        bottom: 0;
+    }
+
+    .lg\:pos-x-0 {
+        left: 0;
+        right: 0;
+    }
+
+    .lg\:pos-t-0 {
+        top: 0;
+    }
+
+    .lg\:pos-l-0 {
+        left: 0;
+    }
+
+    .lg\:pos-b-0 {
+        bottom: 0;
+    }
+
+    .lg\:pos-r-0 {
+        right: 0;
+    }
+
+    .lg\:pos-cm {
+        position: var(--pos-cm-lg, inherit);
+    }
+
+    .lg\:pos-t-cm {
+        position: var(--pos-t-cm-lg, inherit);
+    }
+
+    .lg\:pos-r-cm {
+        position: var(--pos-r-cm-lg, inherit);
+    }
+
+    .lg\:pos-b-cm {
+        position: var(--pos-b-cm-lg, inherit);
+    }
+
+    .lg\:pos-l-cm {
+        position: var(--pos-l-cm-lg, inherit);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .xl\:pos-static {
+        position: static;
+    }
+
+    .xl\:pos-fixed {
+        position: fixed;
+    }
+
+    .xl\:pos-relative {
+        position: relative;
+    }
+
+    .xl\:pos-absolute {
+        position: absolute;
+    }
+
+    .xl\:pos-sticky {
+        position: sticky;
+    }
+
+    .xl\:pos-auto {
+        top: auto;
+        left: auto;
+        bottom: auto;
+        right: auto;
+    }
+
+    .xl\:pos-y-auto {
+        top: auto;
+        bottom: auto;
+    }
+
+    .xl\:pos-x-auto {
+        left: auto;
+        right: auto;
+    }
+
+    .xl\:pos-t-auto {
+        top: auto;
+    }
+
+    .xl\:pos-l-auto {
+        left: auto;
+    }
+
+    .xl\:pos-b-auto {
+        bottom: auto;
+    }
+
+    .xl\:pos-r-auto {
+        right: auto;
+    }
+
+    .xl\:pos-0 {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .xl\:pos-y-0 {
+        top: 0;
+        bottom: 0;
+    }
+
+    .xl\:pos-x-0 {
+        left: 0;
+        right: 0;
+    }
+
+    .xl\:pos-t-0 {
+        top: 0;
+    }
+
+    .xl\:pos-l-0 {
+        left: 0;
+    }
+
+    .xl\:pos-b-0 {
+        bottom: 0;
+    }
+
+    .xl\:pos-r-0 {
+        right: 0;
+    }
+
+    .xl\:pos-cm {
+        position: var(--pos-cm-xl, inherit);
+    }
+
+    .xl\:pos-t-cm {
+        position: var(--pos-t-cm-xl, inherit);
+    }
+
+    .xl\:pos-r-cm {
+        position: var(--pos-r-cm-xl, inherit);
+    }
+
+    .xl\:pos-b-cm {
+        position: var(--pos-b-cm-xl, inherit);
+    }
+
+    .xl\:pos-l-cm {
+        position: var(--pos-l-cm-xl, inherit);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .xxl\:pos-static {
+        position: static;
+    }
+
+    .xxl\:pos-fixed {
+        position: fixed;
+    }
+
+    .xxl\:pos-relative {
+        position: relative;
+    }
+
+    .xxl\:pos-absolute {
+        position: absolute;
+    }
+
+    .xxl\:pos-sticky {
+        position: sticky;
+    }
+
+    .xxl\:pos-auto {
+        top: auto;
+        left: auto;
+        bottom: auto;
+        right: auto;
+    }
+
+    .xxl\:pos-y-auto {
+        top: auto;
+        bottom: auto;
+    }
+
+    .xxl\:pos-x-auto {
+        left: auto;
+        right: auto;
+    }
+
+    .xxl\:pos-t-auto {
+        top: auto;
+    }
+
+    .xxl\:pos-l-auto {
+        left: auto;
+    }
+
+    .xxl\:pos-b-auto {
+        bottom: auto;
+    }
+
+    .xxl\:pos-r-auto {
+        right: auto;
+    }
+
+    .xxl\:pos-0 {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .xxl\:pos-y-0 {
+        top: 0;
+        bottom: 0;
+    }
+
+    .xxl\:pos-x-0 {
+        left: 0;
+        right: 0;
+    }
+
+    .xxl\:pos-t-0 {
+        top: 0;
+    }
+
+    .xxl\:pos-l-0 {
+        left: 0;
+    }
+
+    .xxl\:pos-b-0 {
+        bottom: 0;
+    }
+
+    .xxl\:pos-r-0 {
+        right: 0;
+    }
+
+    .xxl\:pos-cm {
+        position: var(--pos-cm-xxl, inherit);
+    }
+
+    .xxl\:pos-t-cm {
+        position: var(--pos-t-cm-xxl, inherit);
+    }
+
+    .xxl\:pos-r-cm {
+        position: var(--pos-r-cm-xxl, inherit);
+    }
+
+    .xxl\:pos-b-cm {
+        position: var(--pos-b-cm-xxl, inherit);
+    }
+
+    .xxl\:pos-l-cm {
+        position: var(--pos-l-cm-xxl, inherit);
+    }
+}

@@ -1,0 +1,81 @@
+.t-lowercase {
+    text-transform: lowercase;
+}
+
+.t-uppercase {
+    text-transform: uppercase;
+}
+
+.t-capitalize {
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 576px) {
+    .sm\:t-lowercase {
+        text-transform: lowercase;
+    }
+
+    .sm\:t-uppercase {
+        text-transform: uppercase;
+    }
+
+    .sm\:t-capitalize {
+        text-transform: capitalize;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .md\:t-lowercase {
+        text-transform: lowercase;
+    }
+
+    .md\:t-uppercase {
+        text-transform: uppercase;
+    }
+
+    .md\:t-capitalize {
+        text-transform: capitalize;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .lg\:t-lowercase {
+        text-transform: lowercase;
+    }
+
+    .lg\:t-uppercase {
+        text-transform: uppercase;
+    }
+
+    .lg\:t-capitalize {
+        text-transform: capitalize;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .xl\:t-lowercase {
+        text-transform: lowercase;
+    }
+
+    .xl\:t-uppercase {
+        text-transform: uppercase;
+    }
+
+    .xl\:t-capitalize {
+        text-transform: capitalize;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .xxl\:t-lowercase {
+        text-transform: lowercase;
+    }
+
+    .xxl\:t-uppercase {
+        text-transform: uppercase;
+    }
+
+    .xxl\:t-capitalize {
+        text-transform: capitalize;
+    }
+}

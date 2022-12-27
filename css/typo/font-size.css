@@ -1,0 +1,656 @@
+.fs-0 {
+  font-size: 0;
+}
+
+.fs-0-25 {
+  font-size: 0.25rem;
+}
+
+.fs-0-5 {
+  font-size: 0.5rem;
+}
+
+.fs-0-75 {
+  font-size: 0.75rem;
+}
+
+.fs-1 {
+  font-size: 1rem;
+}
+
+.fs-1-25 {
+  font-size: 1.25rem;
+}
+
+.fs-1-5 {
+  font-size: 1.5rem;
+}
+
+.fs-1-75 {
+  font-size: 1.75rem;
+}
+
+.fs-2 {
+  font-size: 2rem;
+}
+
+.fs-2-25 {
+  font-size: 2.25rem;
+}
+
+.fs-2-5 {
+  font-size: 2.5rem;
+}
+
+.fs-2-75 {
+  font-size: 2.75rem;
+}
+
+.fs-3 {
+  font-size: 3rem;
+}
+
+.fs-3-25 {
+  font-size: 3.25rem;
+}
+
+.fs-3-5 {
+  font-size: 3.5rem;
+}
+
+.fs-3-75 {
+  font-size: 3.75rem;
+}
+
+.fs-4 {
+  font-size: 4rem;
+}
+
+.fs-4-25 {
+  font-size: 4.25rem;
+}
+
+.fs-4-5 {
+  font-size: 4.5rem;
+}
+
+.fs-4-75 {
+  font-size: 4.75rem;
+}
+
+.fs-5 {
+  font-size: 5rem;
+}
+
+.fs-5-25 {
+  font-size: 5.25rem;
+}
+
+.fs-5-5 {
+  font-size: 5.5rem;
+}
+
+.fs-5-75 {
+  font-size: 5.75rem;
+}
+
+.fs-6 {
+  font-size: 6rem;
+}
+
+.fs-6-25 {
+  font-size: 6.25rem;
+}
+
+.fs-6-5 {
+  font-size: 6.5rem;
+}
+
+.fs-6-75 {
+  font-size: 6.75rem;
+}
+
+.fs-7 {
+  font-size: 7rem;
+}
+
+.fs-7-25 {
+  font-size: 7.25rem;
+}
+
+.fs-7-5 {
+  font-size: 7.5rem;
+}
+
+.fs-7-75 {
+  font-size: 7.75rem;
+}
+
+.fs-8 {
+  font-size: 8rem;
+}
+
+.fs-cm {
+  font-size: var(--fs-cm, inherit);
+}
+
+@media screen and (min-width: 576px) {
+  .sm\:fs-0 {
+    font-size: 0;
+  }
+  .sm\:fs-0-25 {
+    font-size: 0.25rem;
+  }
+  .sm\:fs-0-5 {
+    font-size: 0.5rem;
+  }
+  .sm\:fs-0-75 {
+    font-size: 0.75rem;
+  }
+  .sm\:fs-1 {
+    font-size: 1rem;
+  }
+  .sm\:fs-1-25 {
+    font-size: 1.25rem;
+  }
+  .sm\:fs-1-5 {
+    font-size: 1.5rem;
+  }
+  .sm\:fs-1-75 {
+    font-size: 1.75rem;
+  }
+  .sm\:fs-2 {
+    font-size: 2rem;
+  }
+  .sm\:fs-2-25 {
+    font-size: 2.25rem;
+  }
+  .sm\:fs-2-5 {
+    font-size: 2.5rem;
+  }
+  .sm\:fs-2-75 {
+    font-size: 2.75rem;
+  }
+  .sm\:fs-3 {
+    font-size: 3rem;
+  }
+  .sm\:fs-3-25 {
+    font-size: 3.25rem;
+  }
+  .sm\:fs-3-5 {
+    font-size: 3.5rem;
+  }
+  .sm\:fs-3-75 {
+    font-size: 3.75rem;
+  }
+  .sm\:fs-4 {
+    font-size: 4rem;
+  }
+  .sm\:fs-4-25 {
+    font-size: 4.25rem;
+  }
+  .sm\:fs-4-5 {
+    font-size: 4.5rem;
+  }
+  .sm\:fs-4-75 {
+    font-size: 4.75rem;
+  }
+  .sm\:fs-5 {
+    font-size: 5rem;
+  }
+  .sm\:fs-5-25 {
+    font-size: 5.25rem;
+  }
+  .sm\:fs-5-5 {
+    font-size: 5.5rem;
+  }
+  .sm\:fs-5-75 {
+    font-size: 5.75rem;
+  }
+  .sm\:fs-6 {
+    font-size: 6rem;
+  }
+  .sm\:fs-6-25 {
+    font-size: 6.25rem;
+  }
+  .sm\:fs-6-5 {
+    font-size: 6.5rem;
+  }
+  .sm\:fs-6-75 {
+    font-size: 6.75rem;
+  }
+  .sm\:fs-7 {
+    font-size: 7rem;
+  }
+  .sm\:fs-7-25 {
+    font-size: 7.25rem;
+  }
+  .sm\:fs-7-5 {
+    font-size: 7.5rem;
+  }
+  .sm\:fs-7-75 {
+    font-size: 7.75rem;
+  }
+  .sm\:fs-8 {
+    font-size: 8rem;
+  }
+  .sm\:fs-cm {
+    font-size: var(--fs-cm-sm, inherit);
+  }
+}
+@media screen and (min-width: 768px) {
+  .md\:fs-0 {
+    font-size: 0;
+  }
+  .md\:fs-0-25 {
+    font-size: 0.25rem;
+  }
+  .md\:fs-0-5 {
+    font-size: 0.5rem;
+  }
+  .md\:fs-0-75 {
+    font-size: 0.75rem;
+  }
+  .md\:fs-1 {
+    font-size: 1rem;
+  }
+  .md\:fs-1-25 {
+    font-size: 1.25rem;
+  }
+  .md\:fs-1-5 {
+    font-size: 1.5rem;
+  }
+  .md\:fs-1-75 {
+    font-size: 1.75rem;
+  }
+  .md\:fs-2 {
+    font-size: 2rem;
+  }
+  .md\:fs-2-25 {
+    font-size: 2.25rem;
+  }
+  .md\:fs-2-5 {
+    font-size: 2.5rem;
+  }
+  .md\:fs-2-75 {
+    font-size: 2.75rem;
+  }
+  .md\:fs-3 {
+    font-size: 3rem;
+  }
+  .md\:fs-3-25 {
+    font-size: 3.25rem;
+  }
+  .md\:fs-3-5 {
+    font-size: 3.5rem;
+  }
+  .md\:fs-3-75 {
+    font-size: 3.75rem;
+  }
+  .md\:fs-4 {
+    font-size: 4rem;
+  }
+  .md\:fs-4-25 {
+    font-size: 4.25rem;
+  }
+  .md\:fs-4-5 {
+    font-size: 4.5rem;
+  }
+  .md\:fs-4-75 {
+    font-size: 4.75rem;
+  }
+  .md\:fs-5 {
+    font-size: 5rem;
+  }
+  .md\:fs-5-25 {
+    font-size: 5.25rem;
+  }
+  .md\:fs-5-5 {
+    font-size: 5.5rem;
+  }
+  .md\:fs-5-75 {
+    font-size: 5.75rem;
+  }
+  .md\:fs-6 {
+    font-size: 6rem;
+  }
+  .md\:fs-6-25 {
+    font-size: 6.25rem;
+  }
+  .md\:fs-6-5 {
+    font-size: 6.5rem;
+  }
+  .md\:fs-6-75 {
+    font-size: 6.75rem;
+  }
+  .md\:fs-7 {
+    font-size: 7rem;
+  }
+  .md\:fs-7-25 {
+    font-size: 7.25rem;
+  }
+  .md\:fs-7-5 {
+    font-size: 7.5rem;
+  }
+  .md\:fs-7-75 {
+    font-size: 7.75rem;
+  }
+  .md\:fs-8 {
+    font-size: 8rem;
+  }
+  .md\:fs-cm {
+    font-size: var(--fs-cm-md, inherit);
+  }
+}
+@media screen and (min-width: 992px) {
+  .lg\:fs-0 {
+    font-size: 0;
+  }
+  .lg\:fs-0-25 {
+    font-size: 0.25rem;
+  }
+  .lg\:fs-0-5 {
+    font-size: 0.5rem;
+  }
+  .lg\:fs-0-75 {
+    font-size: 0.75rem;
+  }
+  .lg\:fs-1 {
+    font-size: 1rem;
+  }
+  .lg\:fs-1-25 {
+    font-size: 1.25rem;
+  }
+  .lg\:fs-1-5 {
+    font-size: 1.5rem;
+  }
+  .lg\:fs-1-75 {
+    font-size: 1.75rem;
+  }
+  .lg\:fs-2 {
+    font-size: 2rem;
+  }
+  .lg\:fs-2-25 {
+    font-size: 2.25rem;
+  }
+  .lg\:fs-2-5 {
+    font-size: 2.5rem;
+  }
+  .lg\:fs-2-75 {
+    font-size: 2.75rem;
+  }
+  .lg\:fs-3 {
+    font-size: 3rem;
+  }
+  .lg\:fs-3-25 {
+    font-size: 3.25rem;
+  }
+  .lg\:fs-3-5 {
+    font-size: 3.5rem;
+  }
+  .lg\:fs-3-75 {
+    font-size: 3.75rem;
+  }
+  .lg\:fs-4 {
+    font-size: 4rem;
+  }
+  .lg\:fs-4-25 {
+    font-size: 4.25rem;
+  }
+  .lg\:fs-4-5 {
+    font-size: 4.5rem;
+  }
+  .lg\:fs-4-75 {
+    font-size: 4.75rem;
+  }
+  .lg\:fs-5 {
+    font-size: 5rem;
+  }
+  .lg\:fs-5-25 {
+    font-size: 5.25rem;
+  }
+  .lg\:fs-5-5 {
+    font-size: 5.5rem;
+  }
+  .lg\:fs-5-75 {
+    font-size: 5.75rem;
+  }
+  .lg\:fs-6 {
+    font-size: 6rem;
+  }
+  .lg\:fs-6-25 {
+    font-size: 6.25rem;
+  }
+  .lg\:fs-6-5 {
+    font-size: 6.5rem;
+  }
+  .lg\:fs-6-75 {
+    font-size: 6.75rem;
+  }
+  .lg\:fs-7 {
+    font-size: 7rem;
+  }
+  .lg\:fs-7-25 {
+    font-size: 7.25rem;
+  }
+  .lg\:fs-7-5 {
+    font-size: 7.5rem;
+  }
+  .lg\:fs-7-75 {
+    font-size: 7.75rem;
+  }
+  .lg\:fs-8 {
+    font-size: 8rem;
+  }
+  .lg\:fs-cm {
+    font-size: var(--fs-cm-lg, inherit);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .xl\:fs-0 {
+    font-size: 0;
+  }
+  .xl\:fs-0-25 {
+    font-size: 0.25rem;
+  }
+  .xl\:fs-0-5 {
+    font-size: 0.5rem;
+  }
+  .xl\:fs-0-75 {
+    font-size: 0.75rem;
+  }
+  .xl\:fs-1 {
+    font-size: 1rem;
+  }
+  .xl\:fs-1-25 {
+    font-size: 1.25rem;
+  }
+  .xl\:fs-1-5 {
+    font-size: 1.5rem;
+  }
+  .xl\:fs-1-75 {
+    font-size: 1.75rem;
+  }
+  .xl\:fs-2 {
+    font-size: 2rem;
+  }
+  .xl\:fs-2-25 {
+    font-size: 2.25rem;
+  }
+  .xl\:fs-2-5 {
+    font-size: 2.5rem;
+  }
+  .xl\:fs-2-75 {
+    font-size: 2.75rem;
+  }
+  .xl\:fs-3 {
+    font-size: 3rem;
+  }
+  .xl\:fs-3-25 {
+    font-size: 3.25rem;
+  }
+  .xl\:fs-3-5 {
+    font-size: 3.5rem;
+  }
+  .xl\:fs-3-75 {
+    font-size: 3.75rem;
+  }
+  .xl\:fs-4 {
+    font-size: 4rem;
+  }
+  .xl\:fs-4-25 {
+    font-size: 4.25rem;
+  }
+  .xl\:fs-4-5 {
+    font-size: 4.5rem;
+  }
+  .xl\:fs-4-75 {
+    font-size: 4.75rem;
+  }
+  .xl\:fs-5 {
+    font-size: 5rem;
+  }
+  .xl\:fs-5-25 {
+    font-size: 5.25rem;
+  }
+  .xl\:fs-5-5 {
+    font-size: 5.5rem;
+  }
+  .xl\:fs-5-75 {
+    font-size: 5.75rem;
+  }
+  .xl\:fs-6 {
+    font-size: 6rem;
+  }
+  .xl\:fs-6-25 {
+    font-size: 6.25rem;
+  }
+  .xl\:fs-6-5 {
+    font-size: 6.5rem;
+  }
+  .xl\:fs-6-75 {
+    font-size: 6.75rem;
+  }
+  .xl\:fs-7 {
+    font-size: 7rem;
+  }
+  .xl\:fs-7-25 {
+    font-size: 7.25rem;
+  }
+  .xl\:fs-7-5 {
+    font-size: 7.5rem;
+  }
+  .xl\:fs-7-75 {
+    font-size: 7.75rem;
+  }
+  .xl\:fs-8 {
+    font-size: 8rem;
+  }
+  .xl\:fs-cm {
+    font-size: var(--fs-cm-xl, inherit);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .xxl\:fs-0 {
+    font-size: 0;
+  }
+  .xxl\:fs-0-25 {
+    font-size: 0.25rem;
+  }
+  .xxl\:fs-0-5 {
+    font-size: 0.5rem;
+  }
+  .xxl\:fs-0-75 {
+    font-size: 0.75rem;
+  }
+  .xxl\:fs-1 {
+    font-size: 1rem;
+  }
+  .xxl\:fs-1-25 {
+    font-size: 1.25rem;
+  }
+  .xxl\:fs-1-5 {
+    font-size: 1.5rem;
+  }
+  .xxl\:fs-1-75 {
+    font-size: 1.75rem;
+  }
+  .xxl\:fs-2 {
+    font-size: 2rem;
+  }
+  .xxl\:fs-2-25 {
+    font-size: 2.25rem;
+  }
+  .xxl\:fs-2-5 {
+    font-size: 2.5rem;
+  }
+  .xxl\:fs-2-75 {
+    font-size: 2.75rem;
+  }
+  .xxl\:fs-3 {
+    font-size: 3rem;
+  }
+  .xxl\:fs-3-25 {
+    font-size: 3.25rem;
+  }
+  .xxl\:fs-3-5 {
+    font-size: 3.5rem;
+  }
+  .xxl\:fs-3-75 {
+    font-size: 3.75rem;
+  }
+  .xxl\:fs-4 {
+    font-size: 4rem;
+  }
+  .xxl\:fs-4-25 {
+    font-size: 4.25rem;
+  }
+  .xxl\:fs-4-5 {
+    font-size: 4.5rem;
+  }
+  .xxl\:fs-4-75 {
+    font-size: 4.75rem;
+  }
+  .xxl\:fs-5 {
+    font-size: 5rem;
+  }
+  .xxl\:fs-5-25 {
+    font-size: 5.25rem;
+  }
+  .xxl\:fs-5-5 {
+    font-size: 5.5rem;
+  }
+  .xxl\:fs-5-75 {
+    font-size: 5.75rem;
+  }
+  .xxl\:fs-6 {
+    font-size: 6rem;
+  }
+  .xxl\:fs-6-25 {
+    font-size: 6.25rem;
+  }
+  .xxl\:fs-6-5 {
+    font-size: 6.5rem;
+  }
+  .xxl\:fs-6-75 {
+    font-size: 6.75rem;
+  }
+  .xxl\:fs-7 {
+    font-size: 7rem;
+  }
+  .xxl\:fs-7-25 {
+    font-size: 7.25rem;
+  }
+  .xxl\:fs-7-5 {
+    font-size: 7.5rem;
+  }
+  .xxl\:fs-7-75 {
+    font-size: 7.75rem;
+  }
+  .xxl\:fs-8 {
+    font-size: 8rem;
+  }
+  .xxl\:fs-cm {
+    font-size: var(--fs-cm-xxl, inherit);
+  }
+}/*# sourceMappingURL=font-size.css.map */

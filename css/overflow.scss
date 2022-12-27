@@ -1,0 +1,371 @@
+.ovf-auto {
+    overflow: auto;
+}
+
+.ovf-hidden {
+    overflow: hidden;
+}
+
+.ovf-visible {
+    overflow: visible;
+}
+
+.ovf-scroll {
+    overflow: scroll;
+}
+
+.ovf-x-auto {
+    overflow-x: auto;
+}
+
+.ovf-x-hidden {
+    overflow-x: hidden;
+}
+
+.ovf-x-visible {
+    overflow-x: visible;
+}
+
+.ovf-x-scroll {
+    overflow-x: scroll;
+}
+
+.ovf-y-auto {
+    overflow-y: auto;
+}
+
+.ovf-y-hidden {
+    overflow-y: hidden;
+}
+
+.ovf-y-visible {
+    overflow-y: visible;
+}
+
+.ovf-y-scroll {
+    overflow-y: scroll;
+}
+
+.ovf-cm {
+    overflow: var(--ovf-cm);
+}
+
+.ovf-cm-y {
+    overflow-y: var(--ovf-cm-y);
+}
+
+.ovf-cm-x {
+    overflow-x: var(--ovf-cm-x);
+}
+
+
+@media screen and (min-width: 576px) {
+    .sm\:ovf-auto {
+        overflow: auto;
+    }
+
+    .sm\:ovf-hidden {
+        overflow: hidden;
+    }
+
+    .sm\:ovf-visible {
+        overflow: visible;
+    }
+
+    .sm\:ovf-scroll {
+        overflow: scroll;
+    }
+
+    .sm\:ovf-x-auto {
+        overflow-x: auto;
+    }
+
+    .sm\:ovf-x-hidden {
+        overflow-x: hidden;
+    }
+
+    .sm\:ovf-x-visible {
+        overflow-x: visible;
+    }
+
+    .sm\:ovf-x-scroll {
+        overflow-x: scroll;
+    }
+
+    .sm\:ovf-y-auto {
+        overflow-y: auto;
+    }
+
+    .sm\:ovf-y-hidden {
+        overflow-y: hidden;
+    }
+
+    .sm\:ovf-y-visible {
+        overflow-y: visible;
+    }
+
+    .sm\:ovf-y-scroll {
+        overflow-y: scroll;
+    }
+
+    .sm\:ovf-cm {
+        overflow: var(--ovf-cm-sm, inherit);
+    }
+
+    .sm\:ovf-cm-y {
+        overflow-y: var(--ovf-cm-y-sm, inherit);
+    }
+
+    .sm\:ovf-cm-x {
+        overflow-x: var(--ovf-cm-x-sm, inherit);
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .md\:ovf-auto {
+        overflow: auto;
+    }
+
+    .md\:ovf-hidden {
+        overflow: hidden;
+    }
+
+    .md\:ovf-visible {
+        overflow: visible;
+    }
+
+    .md\:ovf-scroll {
+        overflow: scroll;
+    }
+
+    .md\:ovf-x-auto {
+        overflow-x: auto;
+    }
+
+    .md\:ovf-x-hidden {
+        overflow-x: hidden;
+    }
+
+    .md\:ovf-x-visible {
+        overflow-x: visible;
+    }
+
+    .md\:ovf-x-scroll {
+        overflow-x: scroll;
+    }
+
+    .md\:ovf-y-auto {
+        overflow-y: auto;
+    }
+
+    .md\:ovf-y-hidden {
+        overflow-y: hidden;
+    }
+
+    .md\:ovf-y-visible {
+        overflow-y: visible;
+    }
+
+    .md\:ovf-y-scroll {
+        overflow-y: scroll;
+    }
+
+    .md\:ovf-cm {
+        overflow: var(--ovf-cm-md, inherit);
+    }
+
+    .md\:ovf-cm-y {
+        overflow-y: var(--ovf-cm-y-md, inherit);
+    }
+
+    .md\:ovf-cm-x {
+        overflow-x: var(--ovf-cm-x-md, inherit);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .lg\:ovf-auto {
+        overflow: auto;
+    }
+
+    .lg\:ovf-hidden {
+        overflow: hidden;
+    }
+
+    .lg\:ovf-visible {
+        overflow: visible;
+    }
+
+    .lg\:ovf-scroll {
+        overflow: scroll;
+    }
+
+    .lg\:ovf-x-auto {
+        overflow-x: auto;
+    }
+
+    .lg\:ovf-x-hidden {
+        overflow-x: hidden;
+    }
+
+    .lg\:ovf-x-visible {
+        overflow-x: visible;
+    }
+
+    .lg\:ovf-x-scroll {
+        overflow-x: scroll;
+    }
+
+    .lg\:ovf-y-auto {
+        overflow-y: auto;
+    }
+
+    .lg\:ovf-y-hidden {
+        overflow-y: hidden;
+    }
+
+    .lg\:ovf-y-visible {
+        overflow-y: visible;
+    }
+
+    .lg\:ovf-y-scroll {
+        overflow-y: scroll;
+    }
+
+    .lg\:ovf-cm {
+        overflow: var(--ovf-cm-lg, inherit);
+    }
+
+    .lg\:ovf-cm-y {
+        overflow-y: var(--ovf-cm-y-lg, inherit);
+    }
+
+    .lg\:ovf-cm-x {
+        overflow-x: var(--ovf-cm-x-lg, inherit);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .xl\:ovf-auto {
+        overflow: auto;
+    }
+
+    .xl\:ovf-hidden {
+        overflow: hidden;
+    }
+
+    .xl\:ovf-visible {
+        overflow: visible;
+    }
+
+    .xl\:ovf-scroll {
+        overflow: scroll;
+    }
+
+    .xl\:ovf-x-auto {
+        overflow-x: auto;
+    }
+
+    .xl\:ovf-x-hidden {
+        overflow-x: hidden;
+    }
+
+    .xl\:ovf-x-visible {
+        overflow-x: visible;
+    }
+
+    .xl\:ovf-x-scroll {
+        overflow-x: scroll;
+    }
+
+    .xl\:ovf-y-auto {
+        overflow-y: auto;
+    }
+
+    .xl\:ovf-y-hidden {
+        overflow-y: hidden;
+    }
+
+    .xl\:ovf-y-visible {
+        overflow-y: visible;
+    }
+
+    .xl\:ovf-y-scroll {
+        overflow-y: scroll;
+    }
+
+    .xl\:ovf-cm {
+        overflow: var(--ovf-cm-xl, inherit);
+    }
+
+    .xl\:ovf-cm-y {
+        overflow-y: var(--ovf-cm-y-xl, inherit);
+    }
+
+    .xl\:ovf-cm-x {
+        overflow-x: var(--ovf-cm-x-xl, inherit);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .xxl\:ovf-auto {
+        overflow: auto;
+    }
+
+    .xxl\:ovf-hidden {
+        overflow: hidden;
+    }
+
+    .xxl\:ovf-visible {
+        overflow: visible;
+    }
+
+    .xxl\:ovf-scroll {
+        overflow: scroll;
+    }
+
+    .xxl\:ovf-x-auto {
+        overflow-x: auto;
+    }
+
+    .xxl\:ovf-x-hidden {
+        overflow-x: hidden;
+    }
+
+    .xxl\:ovf-x-visible {
+        overflow-x: visible;
+    }
+
+    .xxl\:ovf-x-scroll {
+        overflow-x: scroll;
+    }
+
+    .xxl\:ovf-y-auto {
+        overflow-y: auto;
+    }
+
+    .xxl\:ovf-y-hidden {
+        overflow-y: hidden;
+    }
+
+    .xxl\:ovf-y-visible {
+        overflow-y: visible;
+    }
+
+    .xxl\:ovf-y-scroll {
+        overflow-y: scroll;
+    }
+
+    .xxl\:ovf-cm {
+        overflow: var(--ovf-cm-xxl, inherit);
+    }
+
+    .xxl\:ovf-cm-y {
+        overflow-y: var(--ovf-cm-y-xxl, inherit);
+    }
+
+    .xxl\:ovf-cm-x {
+        overflow-x: var(--ovf-cm-x-xxl, inherit);
+    }
+}

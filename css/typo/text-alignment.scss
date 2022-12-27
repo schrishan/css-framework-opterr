@@ -1,0 +1,105 @@
+.t-right {
+    text-align: right;
+}
+
+.t-left {
+    text-align: left;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.t-justify {
+    text-align: justify;
+}
+
+@media screen and (min-width: 576px) {
+    .sm\:t-right {
+        text-align: right;
+    }
+
+    .sm\:t-left {
+        text-align: left;
+    }
+
+    .sm\:t-center {
+        text-align: center;
+    }
+
+    .sm\:t-justify {
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .md\:t-right {
+        text-align: right;
+    }
+
+    .md\:t-left {
+        text-align: left;
+    }
+
+    .md\:t-center {
+        text-align: center;
+    }
+
+    .md\:t-justify {
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .lg\:t-right {
+        text-align: right;
+    }
+
+    .lg\:t-left {
+        text-align: left;
+    }
+
+    .lg\:t-center {
+        text-align: center;
+    }
+
+    .lg\:t-justify {
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .xl\:t-right {
+        text-align: right;
+    }
+
+    .xl\:t-left {
+        text-align: left;
+    }
+
+    .xl\:t-center {
+        text-align: center;
+    }
+
+    .xl\:t-justify {
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .xxl\:t-right {
+        text-align: right;
+    }
+
+    .xxl\:t-left {
+        text-align: left;
+    }
+
+    .xxl\:t-center {
+        text-align: center;
+    }
+
+    .xxl\:t-justify {
+        text-align: justify;
+    }
+}

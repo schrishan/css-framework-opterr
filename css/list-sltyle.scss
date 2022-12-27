@@ -1,0 +1,394 @@
+.ls-none {
+    list-style: none;
+}
+
+.ls-disc {
+    list-style: disc;
+}
+
+.ls-number {
+    list-style: decimal;
+}
+
+.ls-circle {
+    list-style-type: circle;
+}
+
+.ls-armenian {
+    list-style-type: armenian;
+}
+
+.ls-number-zero {
+    list-style-type: decimal-leading-zero;
+}
+
+.ls-georgian {
+    list-style-type: georgian;
+}
+
+.ls-lower-alpha {
+    list-style-type: lower-alpha;
+}
+
+.ls-lower-greek {
+    list-style-type: lower-greek;
+}
+
+.ls-lower-latin {
+    list-style-type: lower-latin;
+}
+
+.ls-lower-roman {
+    list-style-type: lower-roman;
+}
+
+.ls-square {
+    list-style-type: square;
+}
+
+.ls-upper-alpha {
+    list-style-type: upper-alpha;
+}
+
+.ls-upper-latin {
+    list-style-type: upper-latin;
+}
+
+.ls-upper-roman {
+    list-style-type: upper-roman;
+}
+
+.ls-cm {
+    list-style-type: var(--ls-cm);
+}
+
+@media screen and (min-width: 576px) {
+    .sm\:ls-none {
+        list-style: none;
+    }
+
+    .sm\:ls-disc {
+        list-style: disc;
+    }
+
+    .sm\:ls-number {
+        list-style: decimal;
+    }
+
+    .sm\:ls-circle {
+        list-style-type: circle;
+    }
+
+    .sm\:ls-armenian {
+        list-style-type: armenian;
+    }
+
+    .sm\:ls-number-zero {
+        list-style-type: decimal-leading-zero;
+    }
+
+    .sm\:ls-georgian {
+        list-style-type: georgian;
+    }
+
+    .sm\:ls-lower-alpha {
+        list-style-type: lower-alpha;
+    }
+
+    .sm\:ls-lower-greek {
+        list-style-type: lower-greek;
+    }
+
+    .sm\:ls-lower-latin {
+        list-style-type: lower-latin;
+    }
+
+    .sm\:ls-lower-roman {
+        list-style-type: lower-roman;
+    }
+
+    .sm\:ls-square {
+        list-style-type: square;
+    }
+
+    .sm\:ls-upper-alpha {
+        list-style-type: upper-alpha;
+    }
+
+    .sm\:ls-upper-latin {
+        list-style-type: upper-latin;
+    }
+
+    .sm\:ls-upper-roman {
+        list-style-type: upper-roman;
+    }
+
+    .sm\:ls-cm {
+        list-style-type: var(--ls-cm-sm);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .md\:ls-none {
+        list-style: none;
+    }
+
+    .md\:ls-disc {
+        list-style: disc;
+    }
+
+    .md\:ls-number {
+        list-style: decimal;
+    }
+
+    .md\:ls-circle {
+        list-style-type: circle;
+    }
+
+    .md\:ls-armenian {
+        list-style-type: armenian;
+    }
+
+    .md\:ls-number-zero {
+        list-style-type: decimal-leading-zero;
+    }
+
+    .md\:ls-georgian {
+        list-style-type: georgian;
+    }
+
+    .md\:ls-lower-alpha {
+        list-style-type: lower-alpha;
+    }
+
+    .md\:ls-lower-greek {
+        list-style-type: lower-greek;
+    }
+
+    .md\:ls-lower-latin {
+        list-style-type: lower-latin;
+    }
+
+    .md\:ls-lower-roman {
+        list-style-type: lower-roman;
+    }
+
+    .md\:ls-square {
+        list-style-type: square;
+    }
+
+    .md\:ls-upper-alpha {
+        list-style-type: upper-alpha;
+    }
+
+    .md\:ls-upper-latin {
+        list-style-type: upper-latin;
+    }
+
+    .md\:ls-upper-roman {
+        list-style-type: upper-roman;
+    }
+
+    .md\:ls-cm {
+        list-style-type: var(--ls-cm-md);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .lg\:ls-none {
+        list-style: none;
+    }
+
+    .lg\:ls-disc {
+        list-style: disc;
+    }
+
+    .lg\:ls-number {
+        list-style: decimal;
+    }
+
+    .lg\:ls-circle {
+        list-style-type: circle;
+    }
+
+    .lg\:ls-armenian {
+        list-style-type: armenian;
+    }
+
+    .lg\:ls-number-zero {
+        list-style-type: decimal-leading-zero;
+    }
+
+    .lg\:ls-georgian {
+        list-style-type: georgian;
+    }
+
+    .lg\:ls-lower-alpha {
+        list-style-type: lower-alpha;
+    }
+
+    .lg\:ls-lower-greek {
+        list-style-type: lower-greek;
+    }
+
+    .lg\:ls-lower-latin {
+        list-style-type: lower-latin;
+    }
+
+    .lg\:ls-lower-roman {
+        list-style-type: lower-roman;
+    }
+
+    .lg\:ls-square {
+        list-style-type: square;
+    }
+
+    .lg\:ls-upper-alpha {
+        list-style-type: upper-alpha;
+    }
+
+    .lg\:ls-upper-latin {
+        list-style-type: upper-latin;
+    }
+
+    .lg\:ls-upper-roman {
+        list-style-type: upper-roman;
+    }
+
+    .lg\:ls-cm {
+        list-style-type: var(--ls-cm-lg);
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .xl\:ls-none {
+        list-style: none;
+    }
+
+    .xl\:ls-disc {
+        list-style: disc;
+    }
+
+    .xl\:ls-number {
+        list-style: decimal;
+    }
+
+    .xl\:ls-circle {
+        list-style-type: circle;
+    }
+
+    .xl\:ls-armenian {
+        list-style-type: armenian;
+    }
+
+    .xl\:ls-number-zero {
+        list-style-type: decimal-leading-zero;
+    }
+
+    .xl\:ls-georgian {
+        list-style-type: georgian;
+    }
+
+    .xl\:ls-lower-alpha {
+        list-style-type: lower-alpha;
+    }
+
+    .xl\:ls-lower-greek {
+        list-style-type: lower-greek;
+    }
+
+    .xl\:ls-lower-latin {
+        list-style-type: lower-latin;
+    }
+
+    .xl\:ls-lower-roman {
+        list-style-type: lower-roman;
+    }
+
+    .xl\:ls-square {
+        list-style-type: square;
+    }
+
+    .xl\:ls-upper-alpha {
+        list-style-type: upper-alpha;
+    }
+
+    .xl\:ls-upper-latin {
+        list-style-type: upper-latin;
+    }
+
+    .xl\:ls-upper-roman {
+        list-style-type: upper-roman;
+    }
+
+    .xl\:ls-cm {
+        list-style-type: var(--ls-cm-xl);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .xxl\:ls-none {
+        list-style: none;
+    }
+
+    .xxl\:ls-disc {
+        list-style: disc;
+    }
+
+    .xxl\:ls-number {
+        list-style: decimal;
+    }
+
+    .xxl\:ls-circle {
+        list-style-type: circle;
+    }
+
+    .xxl\:ls-armenian {
+        list-style-type: armenian;
+    }
+
+    .xxl\:ls-number-zero {
+        list-style-type: decimal-leading-zero;
+    }
+
+    .xxl\:ls-georgian {
+        list-style-type: georgian;
+    }
+
+    .xxl\:ls-lower-alpha {
+        list-style-type: lower-alpha;
+    }
+
+    .xxl\:ls-lower-greek {
+        list-style-type: lower-greek;
+    }
+
+    .xxl\:ls-lower-latin {
+        list-style-type: lower-latin;
+    }
+
+    .xxl\:ls-lower-roman {
+        list-style-type: lower-roman;
+    }
+
+    .xxl\:ls-square {
+        list-style-type: square;
+    }
+
+    .xxl\:ls-upper-alpha {
+        list-style-type: upper-alpha;
+    }
+
+    .xxl\:ls-upper-latin {
+        list-style-type: upper-latin;
+    }
+
+    .xxl\:ls-upper-roman {
+        list-style-type: upper-roman;
+    }
+
+    .xxl\:ls-cm {
+        list-style-type: var(--ls-cm-xxl);
+    }
+}

@@ -1,0 +1,67 @@
+.t-ovf-clip {
+  text-overflow: clip;
+}
+
+.t-ovf-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.t-ovf-cm {
+  text-overflow: var(--t-ovf-cm, inherit);
+}
+
+@media screen and (min-width: 576px) {
+  .sm\:t-ovf-clip {
+    text-overflow: clip;
+  }
+  .sm\:t-ovf-ellipsis {
+    text-overflow: ellipsis;
+  }
+  .sm\:t-ovf-cm {
+    text-overflow: var(--t-ovf-cm-sm, inherit);
+  }
+}
+@media screen and (min-width: 768px) {
+  .md\:t-ovf-clip {
+    text-overflow: clip;
+  }
+  .md\:t-ovf-ellipsis {
+    text-overflow: ellipsis;
+  }
+  .md\:t-ovf-cm {
+    text-overflow: var(--t-ovf-cm-md, inherit);
+  }
+}
+@media screen and (min-width: 992px) {
+  .lg\:t-ovf-clip {
+    text-overflow: clip;
+  }
+  .lg\:t-ovf-ellipsis {
+    text-overflow: ellipsis;
+  }
+  .lg\:t-ovf-cm {
+    text-overflow: var(--t-ovf-cm-lg, inherit);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .xl\:t-ovf-clip {
+    text-overflow: clip;
+  }
+  .xl\:t-ovf-ellipsis {
+    text-overflow: ellipsis;
+  }
+  .xl\:t-ovf-cm {
+    text-overflow: var(--t-ovf-cm-xl, inherit);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .xxl\:t-ovf-clip {
+    text-overflow: clip;
+  }
+  .xxl\:t-ovf-ellipsis {
+    text-overflow: ellipsis;
+  }
+  .xxl\:t-ovf-cm {
+    text-overflow: var(--t-ovf-cm-xxl, inherit);
+  }
+}/*# sourceMappingURL=text-overflow.css.map */

@@ -1,0 +1,60 @@
+.f-italic {
+    font-style: italic;
+}
+
+.f-normal {
+    font-style: normal;
+}
+
+@media screen and (min-width: 576px) {
+    .sm\:f-italic {
+        font-style: italic;
+    }
+
+    .sm\:f-normal {
+        font-style: normal;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .md\:f-italic {
+        font-style: italic;
+    }
+
+    .md\:f-normal {
+        font-style: normal;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .lg\:f-italic {
+        font-style: italic;
+    }
+
+    .lg\:f-normal {
+        font-style: normal;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .xl\:f-italic {
+        font-style: italic;
+    }
+
+    .xl\:f-normal {
+        font-style: normal;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .xxl\:f-italic {
+        font-style: italic;
+    }
+
+    .xxl\:f-normal {
+        font-style: normal;
+    }
+}

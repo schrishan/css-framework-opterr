@@ -1,0 +1,181 @@
+.va-baseline {
+  vertical-align: baseline;
+}
+
+.va-top {
+  vertical-align: top;
+}
+
+.va-middle {
+  vertical-align: middle;
+}
+
+.va-bottom {
+  vertical-align: bottom;
+}
+
+.va-text-top {
+  vertical-align: text-top;
+}
+
+.va-text-bottom {
+  vertical-align: text-bottom;
+}
+
+.va-sub {
+  vertical-align: sub;
+}
+
+.va-super {
+  vertical-align: super;
+}
+
+.va-cm {
+  vertical-align: var(--va-cm);
+}
+
+@media screen and (min-width: 576px) {
+  .sm\:va-baseline {
+    vertical-align: baseline;
+  }
+  .sm\:va-top {
+    vertical-align: top;
+  }
+  .sm\:va-middle {
+    vertical-align: middle;
+  }
+  .sm\:va-bottom {
+    vertical-align: bottom;
+  }
+  .sm\:va-text-top {
+    vertical-align: text-top;
+  }
+  .sm\:va-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .sm\:va-sub {
+    vertical-align: sub;
+  }
+  .sm\:va-super {
+    vertical-align: super;
+  }
+  .sm\:va-cm {
+    vertical-align: var(--va-cm-sm);
+  }
+}
+@media screen and (min-width: 768px) {
+  .md\:va-baseline {
+    vertical-align: baseline;
+  }
+  .md\:va-top {
+    vertical-align: top;
+  }
+  .md\:va-middle {
+    vertical-align: middle;
+  }
+  .md\:va-bottom {
+    vertical-align: bottom;
+  }
+  .md\:va-text-top {
+    vertical-align: text-top;
+  }
+  .md\:va-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .md\:va-sub {
+    vertical-align: sub;
+  }
+  .md\:va-super {
+    vertical-align: super;
+  }
+  .md\:va-cm {
+    vertical-align: var(--va-cm-md);
+  }
+}
+@media screen and (min-width: 992px) {
+  .lg\:va-baseline {
+    vertical-align: baseline;
+  }
+  .lg\:va-top {
+    vertical-align: top;
+  }
+  .lg\:va-middle {
+    vertical-align: middle;
+  }
+  .lg\:va-bottom {
+    vertical-align: bottom;
+  }
+  .lg\:va-text-top {
+    vertical-align: text-top;
+  }
+  .lg\:va-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .lg\:va-sub {
+    vertical-align: sub;
+  }
+  .lg\:va-super {
+    vertical-align: super;
+  }
+  .lg\:va-cm {
+    vertical-align: var(--va-cm-lg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .xl\:va-baseline {
+    vertical-align: baseline;
+  }
+  .xl\:va-top {
+    vertical-align: top;
+  }
+  .xl\:va-middle {
+    vertical-align: middle;
+  }
+  .xl\:va-bottom {
+    vertical-align: bottom;
+  }
+  .xl\:va-text-top {
+    vertical-align: text-top;
+  }
+  .xl\:va-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .xl\:va-sub {
+    vertical-align: sub;
+  }
+  .xl\:va-super {
+    vertical-align: super;
+  }
+  .xl\:va-cm {
+    vertical-align: var(--va-cm-xl);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .xxl\:va-baseline {
+    vertical-align: baseline;
+  }
+  .xxl\:va-top {
+    vertical-align: top;
+  }
+  .xxl\:va-middle {
+    vertical-align: middle;
+  }
+  .xxl\:va-bottom {
+    vertical-align: bottom;
+  }
+  .xxl\:va-text-top {
+    vertical-align: text-top;
+  }
+  .xxl\:va-text-bottom {
+    vertical-align: text-bottom;
+  }
+  .xxl\:va-sub {
+    vertical-align: sub;
+  }
+  .xxl\:va-super {
+    vertical-align: super;
+  }
+  .xxl\:va-cm {
+    vertical-align: var(--va-cm-xxl);
+  }
+}/*# sourceMappingURL=vertical-alignment.css.map */

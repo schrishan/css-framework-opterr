@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/display.css" />
+    <link rel="stylesheet" href="css/opterr-layer.min.css" />
+    <style>
+      .f-color {
+        color: var(--f-color);
+      }
+      @media screen and (min-width: 576px) {
+        .sm\:f-color {
+          color: var(--f-color-sm, inherit);
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .md\:f-color {
+          color: var(--f-color-md, inherit);
+        }
+      }
+      @media screen and (min-width: 992px) {
+        .lg\:f-color {
+          color: var(--f-color-lg, inherit);
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        .xl\:f-color {
+          color: var(--f-color-xl, inherit);
+        }
+      }
+      @media screen and (min-width: 1400px) {
+        .xxl\:f-color {
+          color: var(--f-color-xxl, inherit);
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="holder">
@@ -90,5 +119,17 @@
       <div class="sq"><div class="debugVisible">sq-2</div></div>
       <div class="sq"><div class="debugVisible">sq-3</div></div>
     </div>
+
+    <h1
+      class="f-color lg:f-color xxl:f-color"
+      style="--f-color: red; --f-color-lg: green; --f-color-xxl: blue"
+    >
+      Hi for me..!
+    </h1>
+    <h1 class="f-color" style="--f-color: yellow">Hi to my family</h1>
   </body>
 </html>
+
+<!-- @media screen and (min-width: 576px) { } @media screen and (min-width: 768px) {
+} @media screen and (min-width: 992px) { } @media screen and (min-width: 1200px)
+{ } @media screen and (min-width: 1400px) { } -->

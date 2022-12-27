@@ -1,0 +1,105 @@
+.t-underline {
+    text-decoration: underline;
+}
+
+.t-line-through {
+    text-decoration: line-through;
+}
+
+.t-no-underline {
+    text-decoration: no-underline;
+}
+
+.t-overline {
+    text-decoration: overline;
+}
+
+@media screen and (min-width: 576px) {
+    .sm\:t-underline {
+        text-decoration: underline;
+    }
+
+    .sm\:t-line-through {
+        text-decoration: line-through;
+    }
+
+    .sm\:t-no-underline {
+        text-decoration: no-underline;
+    }
+
+    .sm\:t-overline {
+        text-decoration: overline;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .md\:t-underline {
+        text-decoration: underline;
+    }
+
+    .md\:t-line-through {
+        text-decoration: line-through;
+    }
+
+    .md\:t-no-underline {
+        text-decoration: no-underline;
+    }
+
+    .md\:t-overline {
+        text-decoration: overline;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .lg\:t-underline {
+        text-decoration: underline;
+    }
+
+    .lg\:t-line-through {
+        text-decoration: line-through;
+    }
+
+    .lg\:t-no-underline {
+        text-decoration: no-underline;
+    }
+
+    .lg\:t-overline {
+        text-decoration: overline;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .xl\:t-underline {
+        text-decoration: underline;
+    }
+
+    .xl\:t-line-through {
+        text-decoration: line-through;
+    }
+
+    .xl\:t-no-underline {
+        text-decoration: no-underline;
+    }
+
+    .xl\:t-overline {
+        text-decoration: overline;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .xxl\:t-underline {
+        text-decoration: underline;
+    }
+
+    .xxl\:t-line-through {
+        text-decoration: line-through;
+    }
+
+    .xxl\:t-no-underline {
+        text-decoration: no-underline;
+    }
+
+    .xxl\:t-overline {
+        text-decoration: overline;
+    }
+}

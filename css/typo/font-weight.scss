@@ -1,0 +1,180 @@
+.f-light {
+    font-weight: 300;
+}
+
+.f-normal {
+    font-weight: 400;
+}
+
+.f-medium {
+    font-weight: 500;
+}
+
+.f-semibold {
+    font-weight: 600;
+}
+
+.f-bold {
+    font-weight: 700;
+}
+
+.f-extrabold {
+    font-weight: 900;
+}
+
+.f-weight-cm {
+    font-weight: var(--f-weight-cm, inherit);
+}
+
+@media screen and (min-width: 576px) {
+    .sm\:f-light {
+        font-weight: 300;
+    }
+
+    .sm\:f-normal {
+        font-weight: 400;
+    }
+
+    .sm\:f-medium {
+        font-weight: 500;
+    }
+
+    .sm\:f-semibold {
+        font-weight: 600;
+    }
+
+    .sm\:f-bold {
+        font-weight: 700;
+    }
+
+    .sm\:f-extrabold {
+        font-weight: 900;
+    }
+
+    .sm\:f-weight-cm {
+        font-weight: var(--f-weight-cm-sm, inherit);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .md\:f-light {
+        font-weight: 300;
+    }
+
+    .md\:f-normal {
+        font-weight: 400;
+    }
+
+    .md\:f-medium {
+        font-weight: 500;
+    }
+
+    .md\:f-semibold {
+        font-weight: 600;
+    }
+
+    .md\:f-bold {
+        font-weight: 700;
+    }
+
+    .md\:f-extrabold {
+        font-weight: 900;
+    }
+
+    .md\:f-weight-cm {
+        font-weight: var(--f-weight-cm-md, inherit);
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .lg\:f-light {
+        font-weight: 300;
+    }
+
+    .lg\:f-normal {
+        font-weight: 400;
+    }
+
+    .lg\:f-medium {
+        font-weight: 500;
+    }
+
+    .lg\:f-semibold {
+        font-weight: 600;
+    }
+
+    .lg\:f-bold {
+        font-weight: 700;
+    }
+
+    .lg\:f-extrabold {
+        font-weight: 900;
+    }
+
+    .lg\:f-weight-cm {
+        font-weight: var(--f-weight-cm-lg, inherit);
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .xl\:f-light {
+        font-weight: 300;
+    }
+
+    .xl\:f-normal {
+        font-weight: 400;
+    }
+
+    .xl\:f-medium {
+        font-weight: 500;
+    }
+
+    .xl\:f-semibold {
+        font-weight: 600;
+    }
+
+    .xl\:f-bold {
+        font-weight: 700;
+    }
+
+    .xl\:f-extrabold {
+        font-weight: 900;
+    }
+
+    .xl\:f-weight-cm {
+        font-weight: var(--f-weight-cm-xl, inherit);
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .xxl\:f-light {
+        font-weight: 300;
+    }
+
+    .xxl\:f-normal {
+        font-weight: 400;
+    }
+
+    .xxl\:f-medium {
+        font-weight: 500;
+    }
+
+    .xxl\:f-semibold {
+        font-weight: 600;
+    }
+
+    .xxl\:f-bold {
+        font-weight: 700;
+    }
+
+    .xxl\:f-extrabold {
+        font-weight: 900;
+    }
+
+    .xxl\:f-weight-cm {
+        font-weight: var(--f-weight-cm-xxl, inherit);
+    }
+}

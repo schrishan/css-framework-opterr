@@ -1,0 +1,25 @@
+sm ---> small devices
+md ---> tablet devices
+lg ---> small desktop screens
+xl ---> desktop
+xxl --> large desktop
+
+fs  ----->  font-size
+ws  ----->  white-space
+t ---> text
+bg --->background
+b --->border
+d---> display
+ls---> list-style
+m---> margin
+ovf ----> overflow
+pos ---> position
+p----> padding
+va ------> vertical-align
+z ----> z-index
+b-shw ----> box-shadow
+t-shw ----> text-shadow
+
+
+
+https://www.projectwallace.com/css-code-quality
